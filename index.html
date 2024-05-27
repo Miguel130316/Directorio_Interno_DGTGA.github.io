@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio Interno DGTGA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        
+        <img src="img/sfp.png" alt="Logo" class="header-logo">
+        <div class="download-button-container">
+            <button id="downloadDirectory"><b>Descargar Directorio</b></button>
+        </div>
+    <input type="text" id="searchBox" placeholder="Buscar...">
+    </header>
+    <table id="directoryTable">
+        <thead>
+            <tr>
+                <th> ID <img src="img/id.png" alt="ID Icon" class="icon-img" /></span></th>
+                <th>Nombre Completo <span class="icon"><img src="img/titular.png" alt="ID Icon" class="icon-img" /></span></th>
+                <th>Puesto <span class="icon"><img src="img/area.png" alt="ID Icon" class="icon-img" /></span></th>
+                <th>Área <span class="icon"><img src="img/area.png" alt="ID Icon" class="icon-img" /></span></th>
+                <th>Correo <span class="icon"><img src="img/correo.png" alt="ID Icon" class="icon-img" /></span></th>
+                <th>Extensión <span class="icon"><img src="img/telefono.png" alt="ID Icon" class="icon-img" /></span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be dynamically inserted here -->
+        </tbody>
+    </table>
+
+    <div class="pagination">
+        <span id="resultCount"><b>Resultados Encontrados</b></span>
+        <div id="paginationControls">
+            <button id="prevPage" disabled>Anterior</button>
+            <span id="pageInfo">Pagina 1</span>
+            <button id="nextPage">Siguiente</button>
+        </div>
+    </div>
+
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
