@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(176, 176, 176) 0%, rgba(212, 212, 216) 35%, rgba(252, 252, 252) 100%);
+    color: black;
+    border-bottom: 1px solid #ccc;
+    font-size: 32px;
+    margin-top: -20px;
+}
+
+.header-logo {
+    max-height: 140px; /* Adjust as necessary */
+    margin-right: auto;
+    
+}
+#searchBox {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: -50px;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(176, 176, 176) 0%, rgba(212, 212, 216) 35%, rgba(252, 252, 252) 100%);
+    color: black;
+    margin-bottom: 1em;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    
+   
+}
+
+th {
+    text-align: center;
+    
+}
+
+th i {
+    margin-right: 5px;
+}
+
+.icon-img {
+    margin-left: 10px;
+    max-width: 25px; /* Adjust the width as needed */
+    height: auto;
+    
+       
+    }
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.download-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#downloadDirectory {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #069AC4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#downloadDirectory:hover {
+    background-color: #187089;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#resultCount {
+    font-size: 20px;
+    font-weight:bold;
+}
+
+#paginationControls {
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+}
+
+#paginationControls button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+#paginationControls button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
